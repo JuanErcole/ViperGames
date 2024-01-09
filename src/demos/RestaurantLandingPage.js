@@ -58,14 +58,14 @@ export default () => {
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
       />
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
-      {/* <TabGrid
+      <TabGrid
         heading={
           <>
-            Checkout our <HighlightedText>menu.</HighlightedText>
+            Checkea nuesto <HighlightedText>catalogo.</HighlightedText>
           </>
         }
       />
-      <Features
+      {/* <Features
         heading={
           <>
             Amazing <HighlightedText>Services.</HighlightedText>
@@ -128,8 +128,8 @@ export default () => {
       />
       <DownloadApp
         text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
-      />
-      <Footer /> */}
+      /> */}
+      <Footer />
     </AnimationRevealPage>
   );
 }
